@@ -6,7 +6,7 @@ $this_idp_env_id = 'HUDUMAKENYA';
 
 //This is variable is for simplesaml example only.
 // For real IdP, you must set the url values in the 'idp' config to conform to the IdP's real urls.
-$idp_host = env('SAML2_' . $this_idp_env_id . '_IDP_HOST', 'http://localhost:2356');
+$idp_host = env('SAML2_' . $this_idp_env_id . '_IDP_HOST', 'http://10.61.60.25:5689');
 
 return $settings = array(
 
